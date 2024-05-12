@@ -20,7 +20,7 @@ Create a React.js application for managing facts. The application should consist
 - Testing: jest, react-native-testing-library
 
 # Folder Structure
-![fs](https://github.com/ffc1e12/data4-life-meal-roulette-app-mobile-h50jf-h14eeb/assets/17096257/a069d416-1890-491a-9ca1-bc684de10b69)
+![fs](https://github.com/Mirza-Hassan/React_Fact_Task/assets/17096257/7a0d3d33-fa81-4009-99b9-e380ea411142)
 
 # Setup Instructions
 
