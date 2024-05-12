@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Fact Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+Create a React.js application for managing facts. The application should consist of three main components: an Input Form for adding new facts, a Search Field for filtering facts, and a Table for displaying and managing existing facts.
 
-## Available Scripts
+# Table of Contents
 
-In the project directory, you can run:
+- [Pre Requisites](#pre-requisites)
+- [Folder Structure](#folder-structure)
+- [Setup Instructions](#setup-instructions)
+- [Testing](#testing)
+- [Screenshot](#screenshot)
 
-### `npm start`
+# Pre Requisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React.js, Typescript, Styled-Components
+- indexeddb storage
+- Testing: jest, react-native-testing-library
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Folder Structure
+![fs](https://github.com/ffc1e12/data4-life-meal-roulette-app-mobile-h50jf-h14eeb/assets/17096257/a069d416-1890-491a-9ca1-bc684de10b69)
 
-### `npm test`
+# Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```
+git clone https://github.com/Mirza-Hassan/React_Fact_Task.git
+```
+2. Navigate to the project directory and Run the command to install the required dependencies:
+```
+npm install
+```
+3. Start the development server:
 
-### `npm run build`
+```
+npm start
+```
+# Testing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install the required testing packages using npm:
+```
+npm install --save-dev jest @testing-library/react-native @testing-library/jest-native
+```
+2. To run your tests, use Jest by running the following command:
+```
+npm test
+```
+![Test_case](https://github.com/Mirza-Hassan/React_Voting_Task/assets/17096257/36b639bd-b337-4735-a472-577251f0fffc)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Screenshot
+![React_App_task](https://github.com/Mirza-Hassan/React_Voting_Task/assets/17096257/4cff8ba4-2f03-4fb3-bc1a-020f7ff43b19)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
