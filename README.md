@@ -13,8 +13,10 @@ Create a React.js application for managing facts. The application should consist
 
 # Pre Requisites
 
-- React.js, Typescript, Styled-Components
-- indexeddb storage
+- React.js, Typescript, 
+- State Management: Context API
+- Styling: Styled-Components
+- Database: indexeddb storage
 - Testing: jest, react-native-testing-library
 
 # Folder Structure
