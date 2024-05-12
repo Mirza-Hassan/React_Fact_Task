@@ -13,7 +13,7 @@ Create a React.js application for managing facts. The application should consist
 
 # Pre Requisites
 
-- React.js, Typescript, 
+- React.js, Typescript
 - State Management: Context API
 - Styling: Styled-Components
 - Database: indexeddb storage
